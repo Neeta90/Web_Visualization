@@ -1,0 +1,15 @@
+.nav-light class{
+   text-anchor: red
+}
+.navbar li a {
+   color: rgb(27, 182, 143);
+   text-decoration: none;
+ }
+.nav class{
+   color: aqua;
+   text-decoration-color: blue;
+} 
+@media (max-width: 480px) {
+   .navbar{
+    background: purple;
+  } 
