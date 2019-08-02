@@ -1,15 +1,84 @@
-.nav-light class{
-   text-anchor: red
-}
-.navbar li a {
-   color: rgb(27, 182, 143);
-   text-decoration: none;
+body {
+
+   background:lavender;
+ 
  }
-.nav class{
-   color: aqua;
-   text-decoration-color: blue;
-} 
-@media (max-width: 480px) {
+ .navbar-default {
+   background-color: rgb(11, 117, 55);
+   border-color: #E7E7E7;
+}
+ .navbar-default .navbar-brand {
+   color: rgb(22, 180, 43);
+}
+
+
+   .navbar li {
+
+      display: d-block;
+    
+      padding: 10px;
+    
+      margin-right: 0px;
+    
+      margin-left: 0px;
+    
+    
+      cursor: pointer;
+    
+    }
+
+ .navbar class{
+    margin-top: 0px;
+   color: rgb(81, 255, 0);
+   #text-decoration-color: blue;
+   
+}
+ @media (max-width: 480px) {
+
+   .navbar li {
+ 
+     padding: 10px;
+ 
+   }
+ 
+   
+ 
+   .navbar ul {
+ 
+     visibility: hidden;
+ 
+   }
+ 
+   #nav-select {
+ 
+     visibility: visible;
+ 
+   }
+ 
+ }
    .navbar{
-    background: purple;
+      margin-right: 0px;
+
+      margin-left: 0px;
+    
+      padding: 25px;
+    
+      background: rgb(39, 184, 20);
   } 
+  .box{
+
+   padding: 10px;
+ 
+   background: white;
+ 
+   margin-top:50px;
+ 
+   margin-left:40px;
+ 
+   margin-right:10px;
+ 
+   margin-bottom:20px;
+ 
+   align-content: center;
+ 
+ }
